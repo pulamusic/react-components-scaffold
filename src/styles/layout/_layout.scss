@@ -1,0 +1,82 @@
+/* ======== utilities ======== */
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: flex;
+}
+
+.wrapper {
+  @include reset-0;
+}
+
+.li-wrapper {
+  @include flex-row;
+  justify-content: center;
+  margin: 0;
+}
+
+/* ======== Padding ======== */
+
+.Header, .Section-1, .Section-2 {
+  padding: $sp-4;
+}
+
+/* ======== App ======== */
+
+.App {
+  @include flex-column;
+  margin: 0 $sp-7;
+  padding: 0;
+  background-color: $app-bg-color;
+}
+
+
+
+/* ======== Header ======== */
+
+.Header {
+  @include flex-column;
+  margin-top: 4.45em;
+  background-color: $header-bg-color;
+}
+
+/* ======== Main ======== */
+
+.Main {
+  @include flex-column;
+}
+
+.Main-header {
+  @include inline-flex-column;
+  padding: $sp-2;
+}
+
+.Main-sections {
+  @include flex-row;
+  justify-content: center;
+}
+
+/* ======== Sections ======== */
+
+.Section-1 {
+  @include flex-column;
+  width: 20%;
+}
+
+.Section-1-list {
+  @include inline-flex-column;
+  padding: $sp-2;
+}
+
+.Section-2 {
+  @include inline-flex-column;
+  width: 80%;
+}
+
+/* ======== Footer ======== */
+
+.Footer {
+  text-align: center;
+  padding: $sp-6 0;
+}
