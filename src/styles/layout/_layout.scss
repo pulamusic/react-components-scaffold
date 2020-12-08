@@ -31,47 +31,12 @@
   background-color: $app-bg-color;
 }
 
-
-
 /* ======== Header ======== */
 
 .Header {
   @include flex-column;
   margin-top: 4.45em;
   background-color: $header-bg-color;
-}
-
-/* ======== Main ======== */
-
-.Main {
-  @include flex-column;
-}
-
-.Main-header {
-  @include inline-flex-column;
-  padding: $sp-2;
-}
-
-.Main-sections {
-  @include flex-row;
-  justify-content: center;
-}
-
-/* ======== Sections ======== */
-
-.Section-1 {
-  @include flex-column;
-  width: 20%;
-}
-
-.Section-1-list {
-  @include inline-flex-column;
-  padding: $sp-2;
-}
-
-.Section-2 {
-  @include inline-flex-column;
-  width: 80%;
 }
 
 /* ======== Footer ======== */

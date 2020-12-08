@@ -42,7 +42,6 @@ $font-weight-6: 600;
 $font-weight-7: 700;
 $font-weight-9: 900;
 
-
 //
 // ======== Colors ========
 //
@@ -91,6 +90,9 @@ $red-300: #dd2e2e !default;
 
 $brown-opaque-100: rgba(40, 21, 11, 0.1);
 $brown-opaque-200: rgba(40, 21, 11, 0.2);
+$brown-opaque-400: rgba(40, 21, 11, 0.4);
+$brown-opaque-600: rgba(40, 21, 11, 0.6);
+$brown-opaque-800: rgba(40, 21, 11, 0.8);
 
 $brown-300: rgba(40, 21, 11, 1);
 
@@ -171,14 +173,6 @@ $sp-9: map-get($spacers, sp-9) !default; // 3.5  rem == 56px
 $sp-10: map-get($spacers, sp-10) !default; // 4  rem == 64px
 
 //
-// ======== Borders ========
-//
-
-$border-color: $grey-lt-100 !default;
-$border: 0.0625em solid $border-color !default;
-$border-radius: $sp-1 !default;
-
-//
 // ======== Grid system ========
 //
 
@@ -193,6 +187,14 @@ $content-width: 50em !default;
 $header-height: 3.75em !default;
 $search-results-width: $content-width - $nav-width !default;
 $transition-duration: 0.4s;
+
+//
+// ======== Borders ========
+//
+
+$border-color: rgba(0, 0, 0, 0.2) !default;
+$border: 0.0625em solid $border-color !default;
+$border-radius: $sp-1 !default;
 
 //
 // ======== Media queries ========

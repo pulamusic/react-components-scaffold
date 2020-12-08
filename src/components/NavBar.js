@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-// import logoLg from './../assets/images/adinkra.png';
 
 class NavBar extends Component {
   render() {

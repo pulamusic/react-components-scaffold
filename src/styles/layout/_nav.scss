@@ -45,7 +45,7 @@
     font-size: $font-size-7;
     color: $btn-color;
     background-color: $nav-btn-bg-color;
-    @include transition-slow;
+    @include transition-fast;
     &:hover {
       @include transform-scale-1;
       background-color: $nav-btn-bg-color-hover;
